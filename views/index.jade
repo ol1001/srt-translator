@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title srt Translator
+        link(rel="stylesheet" href="/css/style.css")
+        script(src="/js/global.js")
+    body
+        div.content
+            div#uploadFile
+                p.question Do you want </br> to be a polyglot ?
+                form
+                    input#file.inputFile(type="file",name="file")
+                    label#label(for="file") &#x21E7 Upload file...
+                    p or...
+                div#dropArea
+                    div#dropFile Drop .srt file here
+            div#dictionary
+                p#totalNumber.hide The total number of unique words is &nbsp;
+                ul#translatedList
