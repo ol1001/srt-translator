@@ -8,4 +8,4 @@ web app for learning English by using srt-files
 3. Install dependencies: npm install;
 4. Run mongod: mongod --dbpath data/;
 5. Run app: node app.js;
-6. Test app: [http://localhost:3000]
+6. Test app: http://localhost:3000
