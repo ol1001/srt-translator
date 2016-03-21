@@ -1,0 +1,24 @@
+{
+  "name": "srt-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ol1001/srt-translator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ol1001/srt-translator/issues"
+  },
+  "homepage": "https://github.com/ol1001/srt-translator#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.7"
+  }
+}
